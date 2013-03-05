@@ -27,7 +27,6 @@
     self = [super initWithFrame:CGRectMake(0,0,contentview.frame.size.width, contentview.frame.size.height)];
     
     if (self) {
-        self.contenView = contentview;
         self.parentView = parentview;
         
         [self addSubview:contentview];

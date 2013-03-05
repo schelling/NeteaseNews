@@ -22,6 +22,10 @@
 		448B848C16DB66BF003C9277 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 448B848B16DB66BF003C9277 /* Default-568h@2x.png */; };
 		448B848F16DB66BF003C9277 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 448B848E16DB66BF003C9277 /* ViewController.m */; };
 		448B849216DB66BF003C9277 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 448B849016DB66BF003C9277 /* ViewController.xib */; };
+		44F0EA4E16E581EE00B9430B /* comment.png in Resources */ = {isa = PBXBuildFile; fileRef = 44F0EA4C16E581EE00B9430B /* comment.png */; };
+		44F0EA4F16E581EE00B9430B /* detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 44F0EA4D16E581EE00B9430B /* detail.png */; };
+		44F0EA5316E588B800B9430B /* DetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F0EA5216E588B800B9430B /* DetailView.m */; };
+		44F0EA5616E5973B00B9430B /* CommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F0EA5516E5973B00B9430B /* CommentView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +50,12 @@
 		448B848D16DB66BF003C9277 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		448B848E16DB66BF003C9277 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		448B849116DB66BF003C9277 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		44F0EA4C16E581EE00B9430B /* comment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comment.png; sourceTree = "<group>"; };
+		44F0EA4D16E581EE00B9430B /* detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail.png; sourceTree = "<group>"; };
+		44F0EA5116E588B800B9430B /* DetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailView.h; sourceTree = "<group>"; };
+		44F0EA5216E588B800B9430B /* DetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailView.m; sourceTree = "<group>"; };
+		44F0EA5416E5973B00B9430B /* CommentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentView.h; sourceTree = "<group>"; };
+		44F0EA5516E5973B00B9430B /* CommentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +108,10 @@
 				448B848516DB66BF003C9277 /* AppDelegate.m */,
 				447E382816DBA416002AC529 /* CustomView.h */,
 				447E382916DBA416002AC529 /* CustomView.m */,
+				44F0EA5416E5973B00B9430B /* CommentView.h */,
+				44F0EA5516E5973B00B9430B /* CommentView.m */,
+				44F0EA5116E588B800B9430B /* DetailView.h */,
+				44F0EA5216E588B800B9430B /* DetailView.m */,
 				448B848D16DB66BF003C9277 /* ViewController.h */,
 				448B848E16DB66BF003C9277 /* ViewController.m */,
 				448B849016DB66BF003C9277 /* ViewController.xib */,
@@ -109,6 +123,8 @@
 		448B847C16DB66BF003C9277 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				44F0EA4C16E581EE00B9430B /* comment.png */,
+				44F0EA4D16E581EE00B9430B /* detail.png */,
 				4469E4D816DCF3BA00E2CACE /* index.png */,
 				4469E4D916DCF3BA00E2CACE /* left.png */,
 				448B847D16DB66BF003C9277 /* NeteaseNews-Info.plist */,
@@ -180,6 +196,8 @@
 				448B849216DB66BF003C9277 /* ViewController.xib in Resources */,
 				4469E4DA16DCF3BA00E2CACE /* index.png in Resources */,
 				4469E4DB16DCF3BA00E2CACE /* left.png in Resources */,
+				44F0EA4E16E581EE00B9430B /* comment.png in Resources */,
+				44F0EA4F16E581EE00B9430B /* detail.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +212,8 @@
 				448B848616DB66BF003C9277 /* AppDelegate.m in Sources */,
 				448B848F16DB66BF003C9277 /* ViewController.m in Sources */,
 				447E382A16DBA416002AC529 /* CustomView.m in Sources */,
+				44F0EA5316E588B800B9430B /* DetailView.m in Sources */,
+				44F0EA5616E5973B00B9430B /* CommentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
